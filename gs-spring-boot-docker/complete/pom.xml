@@ -18,7 +18,7 @@
     </parent>
 
     <properties>
-        <azure.containerRegistry>pyacr</azure.containerRegistry>
+        <azure.containerRegistry>pyacr2</azure.containerRegistry>
         <docker.image.prefix>${azure.containerRegistry}.azurecr.io</docker.image.prefix>
         <java.version>1.8</java.version>
         <maven.build.timestamp.format>yyyyMMddHHmmssSSS</maven.build.timestamp.format>
@@ -50,7 +50,6 @@
                     </resources>
                 </configuration>
             </plugin>
-            
             <plugin>
                 <groupId>com.microsoft.azure</groupId>
                 <artifactId>azure-webapp-maven-plugin</artifactId>
